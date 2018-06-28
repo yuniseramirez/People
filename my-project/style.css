@@ -1,0 +1,228 @@
+h1 { 
+	color: #0DBEFF;
+	text-align: center;
+	margin-top: auto;
+	font-family: Impact, fantasy;
+	font-size: 40px;
+	
+	background-color:white;
+	
+
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img1 {
+    float: left;
+    height: 100px;
+    margin: 5px 5px 5px 10px;
+}
+
+.img2 {
+    float: right;
+    height: 100px;
+    margin: 5px 5px 5px 10px;
+}
+
+
+#div1 {
+	 display: inline;
+	
+
+}
+
+#div2 {
+    display: inline;
+    margin-bottom: -50px;
+    
+}
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin:10px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #0DBEFF;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #0DBEFF;
+
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #0DBEFF;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Style the header */
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+body {
+  margin: 0;
+
+  }
+.header {
+  
+  background: white;
+  color: #f1f1f1;
+}
+
+
+.news { 
+	
+	border-style: solid;
+    border-width: 1px;
+    border-color: #FF0DA2;
+    width:700px;
+    height: 300px;
+   	margin: auto;
+	
+}
+
+.news1 { 
+	
+	border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width:700px;
+    
+   
+   	margin: auto;
+	
+}
+
+.news2 {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF0DA2;
+    width:700px;
+    height: 300px;
+   
+    margin: 20px auto ;
+
+
+
+}
+
+h2 { 
+	text-align: left;
+	margin: 10px;
+
+}
+
+ h5 { 
+ 	text-align: left;
+	margin: 20px;
+	color:grey;
+}
+
+h3 { 
+    text-align: right;
+    margin: 15px;
+
+}
+
+
+
+p { 
+
+	text-align: left;
+	margin: 25px;
+
+}
+
+.dress { 
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+    margin: 40px auto ;
+
+
+
+ }
+
+ .dress h5 {
+
+    text-align: right;
+    margin: 10px;
+    color:grey;
+
+
+
+ }
+
+
